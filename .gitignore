@@ -1,0 +1,37 @@
+.DS_Store
+.dart_tool/
+
+.packages
+.pub/
+
+build/
+ios/.generated/
+ios/Flutter/Generated.xcconfig
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Ignore subfolders
+utils/png2gif/*/
+utils/raster2vector/*/
+utils/raster2vector/*.svg
+# Ignore output
+*.png
+*.pmm
+*.gif
+*.jpg
+
+#IDE
+.idea/
+
+#Tools
+EDIT
+REPLACE
+FORMAT
+DEPLOY
+img/
+example/example_0/
+example/example_03_web/
+example/example_01_web/
+
+
+#Publish
+store/
